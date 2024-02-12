@@ -34,16 +34,16 @@ static void about_draw(void) {
     screen_write("ABOUT MINICRAFT FOR GBA", 0, 3, 1);
 
     screen_write(
-        "THIS GBA DEMAKE OF MINICRAFT\n"
-        "WAS MADE BY VULCALIEN.\n"
+        "ESSE DEMAKE DE GBA DO MINICRAFT\n"
+        "FOI FEITO POR VULCALIEN.\n"
         "\n"
-        "I'VE ALWAYS LOVED MINICRAFT.\n"
-        "IT HELPED ME LEARN TO CODE.",
+        "EU SEMPRE AMEI O MINICRAFT.\n"
+        "ELE ME ENSINOU A PROGAMAR.",
         2, 1, 3
     );
 
-    screen_write("ABOUT MINICRAFT", 0, 7, 9);
-    screen_write("(NOTCH'S WORDS)", 2, 7, 10);
+    screen_write("SOBRE MINICRAFT", 0, 7, 9);
+    screen_write("(PALAVRAS DE NOTCH)", 2, 7, 10);
 
     screen_write(
         "MINICRAFT WAS MADE BY MARKUS\n"

@@ -80,23 +80,23 @@ static void pause_draw(void) {
     const u8 pause_w = 18;
     const u8 pause_h = 8;
 
-    screen_draw_frame("PAUSE", pause_x, pause_y, pause_w, pause_h);
+    screen_draw_frame("PAUSA", pause_x, pause_y, pause_w, pause_h);
 
-    screen_write("TIME:", 4, pause_x + 1, pause_y + 1);
+    screen_write("JOGATINA:", 4, pause_x + 1, pause_y + 1);
     screen_write_time(gametime, 8, pause_x + 6, pause_y + 1);
 
-    screen_write("SCORE:", 4, pause_x + 1, pause_y + 2);
+    screen_write("PONTOS:", 4, pause_x + 1, pause_y + 2);
     SCREEN_WRITE_NUMBER(score, 10, 10, false, 8, pause_x + 7, pause_y + 2);
 
     if(should_save) {
-        screen_write("SAVING...", 4, pause_x + 5, pause_y + 5);
+        screen_write("SALVANDO...", 4, pause_x + 5, pause_y + 5);
     } else if(ask_overwrite) {
-        screen_write("OVERWRITE FILE?", 4, pause_x + 1, pause_y + 4);
+        screen_write("SUBSCREVER SALVO?", 4, pause_x + 1, pause_y + 4);
 
-        WRITE_OPTION("YES", 0, pause_x + 4,  pause_y + 6);
-        WRITE_OPTION("NO",  1, pause_x + 12, pause_y + 6);
+        WRITE_OPTION("SIM", 0, pause_x + 4,  pause_y + 6);
+        WRITE_OPTION("NAO",  1, pause_x + 12, pause_y + 6);
     } else {
-        screen_write("> SAVE GAME <", 4, pause_x + 2, pause_y + 5);
+        screen_write("> SALVAR PROGRESSO <", 4, pause_x + 2, pause_y + 5);
     }
 }
 

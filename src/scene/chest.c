@@ -120,7 +120,7 @@ static void chest_draw(void) {
 
         // draw frame
         screen_draw_frame(
-            (frame == 0 ? "CHEST" : "INVENTORY"),
+            (frame == 0 ? "CESTO" : "INVENTARIO"),
             frame_x, frame_y, frame_w, frame_h
         );
 

@@ -128,21 +128,21 @@ static void start_draw(void) {
     }
 
     if(can_load) {
-        START_WRITE("LOAD GAME", LOAD_GAME, 10, 9);
+        START_WRITE("CONTINUAR", LOAD_GAME, 10, 9);
         if(!checksum_verified) {
             screen_write("(!)", 2, 22, 9);
 
-            screen_write("(!) INVALID CHECKSUM", 2, 1, 17);
+            screen_write("(!) CHECKSUM INVALIDO", 2, 1, 17);
         }
     }
-    START_WRITE("NEW  GAME", NEW_GAME, 10, 10);
+    START_WRITE("NOVO JOGO", NEW_GAME, 10, 10);
 
-    START_WRITE("OPTIONS", OPTIONS, 11, 12);
+    START_WRITE("OPCOES", OPTIONS, 11, 12);
 
-    START_WRITE("HOW TO PLAY", HOW_TO_PLAY, 9, 14);
-    START_WRITE("ABOUT", ABOUT, 12, 15);
+    START_WRITE("COMO JOGAR", HOW_TO_PLAY, 9, 14);
+    START_WRITE("SOBRE", ABOUT, 12, 15);
 
-    screen_write("V1.3", 1, 26, 19);
+    screen_write("V1.3 T1.0", 1, 26, 19);
 }
 
 const struct Scene scene_start = {

@@ -38,7 +38,8 @@ static void about_draw(void) {
         "FOI FEITO POR VULCALIEN.\n"
         "\n"
         "EU SEMPRE AMEI O MINICRAFT.\n"
-        "ELE ME ENSINOU A PROGAMAR.",
+        "ELE ME ENSINOU A PROGAMAR.\n"
+        "T-PORT POR ERICKN13.\n",
         2, 1, 3
     );
 

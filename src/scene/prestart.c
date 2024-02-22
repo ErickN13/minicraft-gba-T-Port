@@ -43,7 +43,7 @@ static void prestart_draw(void) {
     screen_write(
         "MINICRAFT FOI FEITO POR MARKUS\n"
         "PERSSON PARA A 22'DO COMPETICAO\n"
-        "LUDUM DARE EN DEZEMBRO\n"
+        "LUDUM DARE EM DEZEMBRO\n"
         "DE 2011.\n"
         "\n"
         "ESSE DEMAKE DE GBA DO JOGO\n"

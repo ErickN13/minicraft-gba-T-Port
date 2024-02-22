@@ -89,7 +89,7 @@ static void inventory_draw(void) {
     const u8 inv_w = 12;
     const u8 inv_h = 14;
 
-    screen_draw_frame("INVENTORY", inv_x, inv_y, inv_w, inv_h);
+    screen_draw_frame("INVENTARIO", inv_x, inv_y, inv_w, inv_h);
 
     i8 item0 = selected - (inv_h - 2) / 2;
     if(item0 > player_inventory.size - (inv_h - 2))

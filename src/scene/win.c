@@ -42,15 +42,15 @@ static void win_draw(void) {
     const u8 win_h = 7;
 
     screen_draw_frame("", win_x, win_y, win_w, win_h);
-    screen_write("VOCE VENCEU! EBA!", 4, win_x + 1, win_y + 1);
+    screen_write("VOCE ZEROU! EBA!", 4, win_x + 1, win_y + 1);
 
-    screen_write("JOGATINA:", 4, win_x + 1, win_y + 2);
+    screen_write("TEMPO:", 4, win_x + 1, win_y + 2);
     screen_write_time(gametime, 8, win_x + 6, win_y + 2);
 
     screen_write("PONTOS:", 4, win_x + 1, win_y + 3);
     SCREEN_WRITE_NUMBER(score, 10, 10, false, 8, win_x + 7, win_y + 3);
 
-    screen_write("PRESSIONE A PARA VENCER", 6, win_x + 1, win_y + 5);
+    screen_write("APERTE A PARA VENCER", 6, win_x + 1, win_y + 5);
 }
 
 const struct Scene scene_win = {

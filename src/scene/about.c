@@ -31,10 +31,10 @@ static void about_draw(void) {
         for(u32 x = 0; x < 30; x++)
             BG3_TILEMAP[x + y * 32] = 29 | 1 << 12;
 
-    screen_write("ABOUT MINICRAFT FOR GBA", 0, 3, 1);
+    screen_write("SOBRE MINICRAFT DE GBA", 0, 3, 1);
 
     screen_write(
-        "ESSE DEMAKE DE GBA DO MINICRAFT\n"
+        "O DEMAKE DE GBA DO MINICRAFT\n"
         "FOI FEITO POR VULCALIEN.\n"
         "\n"
         "EU SEMPRE AMEI O MINICRAFT.\n"

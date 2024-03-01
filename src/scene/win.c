@@ -38,8 +38,8 @@ THUMB
 static void win_draw(void) {
     const u8 win_x = 6;
     const u8 win_y = 5;
-    const u8 win_w = 18;
-    const u8 win_h = 7;
+    const u8 win_w = 20;
+    const u8 win_h = 9;
 
     screen_draw_frame("", win_x, win_y, win_w, win_h);
     screen_write("VOCE ZEROU! EBA!", 4, win_x + 1, win_y + 1);

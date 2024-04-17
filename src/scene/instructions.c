@@ -31,24 +31,24 @@ static void instructions_draw(void) {
         for(u32 x = 0; x < 30; x++)
             BG3_TILEMAP[x + y * 32] = 29 | 1 << 12;
 
-    screen_write("COMO JOGAR", 0, 9, 1);
+    screen_write("APRENDA A JOGAR", 0, 2, 1);
 
     screen_write(
         "MOVA SEU PERSONAGEM USANDO\n"
-        "O DPAD.\n"
+        "O DPAD OU WASD.\n"
         "\n"
-        "PRESSIONR A PARA ATAQUE E PARA USAR\n"
-        "ITENS E O B PARA ABRIR O\n"
+        "APERTE A PRA ATACAR E PRA USAR\n"
+        "ITENS, E APERTE B PARA ABRIR O\n"
         "INVENTARIO.\n"
         "\n"
         "SELECIONE UM ITEM NO\n"
         "INVENTARIO PARA EQUIPAR.\n"
         "\n"
-        "MATE O MAGO DO AR PARA VENCER\n"
+        "MATE O MAGO DO AR PRA VENCER\n"
         "O JOGO!\n"
         "\n"
         "\n"
-        "PRESSIONE START PARA PAUSE E PARA\n"
+        "APERTE START PRA PAUSAR E PRA\n"
         "SALVAR O PROGRESSO.",
         2, 1, 3
     );
